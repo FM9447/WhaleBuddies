@@ -25,4 +25,8 @@ body,html{
         margin-top: -1.39%;
         color:red;
     }
+    .welcome-image{
+        width: 430px;
+        height: 100vh;
+    }
 }
