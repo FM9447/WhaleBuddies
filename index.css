@@ -19,6 +19,7 @@ body,html{
     background-color: #c79ff0;
     margin:0;
     overflow-x:hidden;
+    padding-left: 0;
 }
 @media screen and (max-width: 480px) {
     .text-field {
@@ -34,6 +35,7 @@ body,html{
 hr{
     margin:0;
     padding: 0;
+    width: 150%;
     background-color: black;
     height: 0.3vh;
 }
@@ -46,4 +48,7 @@ hr{
     text-shadow: 4px 3px #ff0000;
     font-size: 5Vw;
     font-family: fantasy;
+}
+table{
+    margin-left: 0;
 }
