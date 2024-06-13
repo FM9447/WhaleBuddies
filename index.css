@@ -9,14 +9,14 @@
     color: white;
     padding-top: 0%;
     margin-top: 0;
-    background-color: rgb(0, 165, 253);
+    background-color: #c79ff0;
     width: 100%;
     margin-left: -0.52%;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
 body,html{
-    background-color: black;
+    background-color: #c79ff0;
     margin:0;
     overflow-x:hidden;
 }
@@ -26,7 +26,24 @@ body,html{
         color:red;
     }
     .welcome-image{
+        content:url("/Gif_mobile.mp4");
         width: 430px;
         height: 100vh;
     }
+}
+hr{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    height: 0.3vh;
+}
+.intro_content{
+    text-shadow: 1px 1px #000000;
+    font-size: larger;
+    font-family: cursive;
+}
+.intro_head{
+    text-shadow: 4px 3px #ff0000;
+    font-size: 5Vw;
+    font-family: fantasy;
 }
