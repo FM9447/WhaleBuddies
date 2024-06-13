@@ -52,3 +52,29 @@ hr{
 table{
     margin-left: 0;
 }
+.dis_image{
+    height: 91vh;
+    border-right: .23vw solid black;
+    padding-right:3vw;
+    margin-left: -1vw;
+    margin-top: -0.5vh;
+    padding-bottom:0 ;
+}
+.distribution{
+    background-color: rgba(37, 85, 244, 0.904); 
+    height: 90vh; width: 100vw;
+    border: 1px solid black;
+    margin-left: -1vw ;
+    padding-bottom: 0;
+}
+.dis_content{
+    padding-left: 1vw;
+    text-shadow: 2px 1px #e83a00;
+    font-size: larger;
+    font-family: cursive;
+}
+.dis_content_head{
+    text-shadow: 4px 3px #a309cd;
+    font-size: 3Vw;
+    font-family: fantasy;;
+}
