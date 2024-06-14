@@ -104,7 +104,7 @@ table{
 }
 
 
-@media screen and (width <=  1440px){
+@media screen and (width >=  1440px ) and (width < 2560px){
     .intro_head{
         font-size: 5vw;
         text-shadow: 4px 2px  #ab0000;
@@ -136,7 +136,7 @@ table{
 }
 
 
-@media screen and (width <=  1024px){
+@media screen and (width >=  1024px) and (width < 1440px){
     .intro_content{    
         text-shadow: 2px 1px #000000;
         font-size: 95%;
