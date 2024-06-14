@@ -126,10 +126,6 @@ table{
         font-size: 119%;
         font-family: cursive;
     }
-    .dis_image{
-        margin-left: -0.1%;
-        margin-bottom:-1%;
-    }
     .dis_bottom_hr{
         margin-top:-0.9vh;
     }
@@ -145,11 +141,17 @@ table{
         padding-right: 3vw;
         padding-left: 4vw;
         text-shadow: 2px 1px #151414;
-        font-size: 85%;
+        font-size: 83%;
         font-family: cursive;
     }
     .intro_head{
         text-shadow: 6px 5px #ab0000;
         font-size: 5vw;
+    }
+    .dis_content_size{
+        height: 53vh;
+    }
+    .dis_image{
+        margin-bottom: -1%;
     }
 }
