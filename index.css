@@ -21,17 +21,6 @@ body,html{
     overflow-x:hidden;
     padding-left: 0;
 }
-@media screen and (max-width: 480px) {
-    .text-field {
-        margin-top: -1.39%;
-        color:red;
-    }
-    .welcome-image{
-        content:url("/Gif_mobile.mp4");
-        width: 430px;
-        height: 100vh;
-    }
-}
 hr{
     margin:0;
     padding: 0;
@@ -190,4 +179,37 @@ table{
     font-family: fantasy;
     text-align: center;
     padding-top: -5%;
+}
+@media screen and (width >= 768px) and (width < 1024px){
+    .welcome-image{
+        height: 70vh;
+        width: 100vw;
+    }
+    .intro_head{
+        font-size: 300%;
+    }
+    .intro_content{
+        font-size: 90%;
+    }
+    .rarity{
+        height: 75vh;
+    }
+    .rare_color_img{
+        padding-left: 7%;
+        width: 90vw;
+        height: 57vh;
+    }
+    .rar_head{
+        margin-top: -4.9%;
+        font-size: 230%;
+    }
+    .dis_content{
+        font-size: 80%;
+    }
+    .dis_content_head{
+        font-size: 250%;
+    }
+    .dis_image{
+        border-right: none;
+    }
 }
