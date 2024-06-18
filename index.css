@@ -96,7 +96,7 @@ table{
         padding-top: 6.5vh;
     }
     .rare_color_img{
-        height: 100%;
+        height: 130%;
     }
     
 }
@@ -105,8 +105,8 @@ table{
 @media screen and (width >=  1440px ) and (width < 2560px){
     .intro_head{
         font-size: 5vw;
-        text-shadow: 6px 5px #000000;
-        -webkit-text-stroke: .2px#000000;
+        text-shadow: 5px 1px #000000;
+        -webkit-text-stroke: .4px#000000;
     }
     .dis_content_head{
         margin-bottom: -0.2vh;
@@ -131,13 +131,22 @@ table{
     .rar_head_1{
         padding-top: 1.5%;
     }
+    .intro_content{
+        font-size: 140%;
+    }
+    .rarity{  
+        margin-bottom:-.1% ;
+    }
+    .rare_color_img{
+        height:50vh;
+    }
 }
 
 
 @media screen and (width >=  1024px) and (width < 1440px){
     .intro_content{    
         text-shadow: 2px 1px #000000;
-        font-size: 95%;
+        font-size: 105%;
     }
     .dis_content{
         padding-right: 3vw;
@@ -147,7 +156,7 @@ table{
         font-family: cursive;
     }
     .intro_head{
-        text-shadow: 6px 5px #000000;
+        text-shadow: 4px 3px #000000;
         -webkit-text-stroke: .2px#000000;
         font-size: 5vw;
     }
@@ -160,15 +169,24 @@ table{
     .rar_head_1{
         padding-top: 8.7vh;
     }
+    .rarity{  
+        margin-bottom:-.2% ;
+    }
+    .welcome-image{
+        height: 65vh;
+    }
+    .rare_color_img{
+        height:50vh;
+    }
 }
 
 .rare_color_img{  
     margin-left: -1%;
-    margin-top: -4%;  
+    margin-top: -4.2%;  
     background-color: rgb(230, 122, 59);
     padding-left: 18%;
     padding-right: 25%;
-    height: 70vh;
+    height: 60vh;
     width: 70%;
     margin-bottom:-.3% ;
 }
