@@ -240,3 +240,34 @@ table{
         border-right: none;
     }
 }
+.roadmap_head{
+    background-color: rgb(110, 241, 241);
+    text-align: center;
+    font-size: 140%;
+    height: 2%;
+    width: 100%;
+}
+.q3_2024{
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(218, 196, 72);
+    width: 33.33%;
+}
+.roadmap_content{
+    width: 101.2%;
+    margin-left: -1.2%;
+    margin-top: -.3%;
+}
+.q4_2024{
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(165, 69, 238);
+    width: 33.33%;
+}
+.q1_2025{
+    border-left: 1px rgb(235, 78, 78);
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(235, 78, 78);
+    width: 33.33%;
+}
