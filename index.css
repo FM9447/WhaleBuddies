@@ -98,7 +98,21 @@ table{
     .rare_color_img{
         height: 130%;
     }
-    
+    .roadmap_head{
+        font-size: 250%;
+        height: 150%;
+    }
+    .roadmap_size{
+        height: 150%;
+    }
+    .q_head{
+        font-size: 230%;
+        text-shadow: 3px 2px #000000;
+        -webkit-text-stroke: .2px#000000;
+    }
+    .roadmap_content{
+        font-size:160%;
+    }
 }
 
 
@@ -243,31 +257,39 @@ table{
 .roadmap_head{
     background-color: rgb(110, 241, 241);
     text-align: center;
-    font-size: 140%;
+    font-size: 150%;
     height: 2%;
     width: 100%;
+    text-shadow: 3.2px 1px #32500d;
+    -webkit-text-stroke: .2px#4a0606;
 }
 .q3_2024{
-    font-size: larger;
+    padding-top: -4%;
     text-align: center;
     background-color: rgb(218, 196, 72);
     width: 33.33%;
 }
 .roadmap_content{
+    font-size: 120%;
     width: 101.2%;
     margin-left: -1.2%;
-    margin-top: -.3%;
+    margin-top: -.2%;
 }
 .q4_2024{
-    font-size: larger;
     text-align: center;
     background-color: rgb(165, 69, 238);
     width: 33.33%;
 }
 .q1_2025{
     border-left: 1px rgb(235, 78, 78);
-    font-size: larger;
     text-align: center;
     background-color: rgb(235, 78, 78);
     width: 33.33%;
+}
+.roadmap_size{
+    height: 100%;
+}
+.q_head{
+    text-shadow: 3px 1px #000000;
+    -webkit-text-stroke: .2px#000000;
 }
